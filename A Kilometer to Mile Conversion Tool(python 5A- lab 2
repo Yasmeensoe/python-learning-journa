@@ -1,0 +1,11 @@
+# Using 1 kilometer = 0.62 miles in this
+Kilometer_value_in_miles = 0.62
+
+# For user, to enter a distance in kilometers (km)
+kilometers = float(input("Enter the distance in kilometers(km): "))
+
+# Convert kilometers to miles
+miles = kilometers *  Kilometer_value_in_miles
+
+# Display the result
+print(f"{kilometers} kilometers is approximately equavalent to {miles} miles.")
