@@ -1,0 +1,11 @@
+# Binary number
+binary_number = '101101000'
+
+# Convert binary to decimal
+decimal_number = 0
+for index, bit in enumerate(reversed(binary_number)):
+    power_of_two = 2 ** index
+    decimal_number += int(bit) * power_of_two
+
+# The result
+print("The decimal equivalent of", binary_number, "is", decimal_number)
